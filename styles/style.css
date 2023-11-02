@@ -113,7 +113,7 @@ p {
   color: #fff;
 }
 
-.services {
+#services {
   justify-content: space-between;
   background-color: #1f2235;
   padding: 28px 98px;
@@ -131,8 +131,18 @@ p {
 }
 
 .offer h1 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 800%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.offer h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(255, 74, 87);
 }
 
 .offer p {
@@ -187,10 +197,82 @@ color: rgb(255, 74, 87);
 }
 
 
-#logo-icons:hover{
-color: white;
-transition: 0.5s;
 
+
+.grid:hover #logo-icons:hover {
+  transition: .8s;
+  transform: scale(1.2);
+  cursor: pointer;
+color: #fff;
+}
+
+
+
+
+#logo-icons:active{
+color:rgb(255, 74, 87);
+transition: 0.5s;
+}
+
+
+
+#logo-icons:visited{
+color: #fff;
+transition: 0.5s;
+}
+
+#about {
+  background-color: rgb(34,38,57);
+  padding: 28px 98px;
+  margin-top: 0px;
+
+}
+
+#about h1 {
+  font-size: 50px;
+  font-weight: 800%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255,255,255);
+}
+
+#about p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255,255,255);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about-2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+
+
+}
+
+#about-2 h4 {
+  font-size: 30px;
+  font-weight: 800%;
+  text-align: justify;
+  padding-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#about-2 p {
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
